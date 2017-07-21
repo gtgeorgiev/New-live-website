@@ -18,6 +18,8 @@ div.container {
         border: none;
     }
 }
+
+
 /*--------- NAVBAR --------*/
 
 nav {
@@ -34,11 +36,11 @@ nav {
 ul.navbar-nav li.active a {
     background-color: transparent !important;
     font-weight: bold;
-    color:#8FBF4D !important;
+    color: #8FBF4D !important;
 }
 
 ul.navbar-nav li:hover a {
-    color:#8FBF4D !important;
+    color: #8FBF4D !important;
 }
 
 nav li a,
@@ -52,6 +54,8 @@ a.navbar-brand {
     font-family: Helvetica, sans-serif;
     font-size: 1.5em;
 }
+
+
 /*--------- MAIN --------*/
 
 main {
@@ -61,7 +65,7 @@ main {
 .contacts {
     border-left: 1px solid f4f4f4;
     background: #f4f4f4;
-    width: 28n%;
+    width: 28%;
     padding: 10px;
 }
 
@@ -71,6 +75,7 @@ main {
         margin-bottom: 10px;
     }
 }
+
 
 /*--------- FOOTER --------*/
 
@@ -82,8 +87,10 @@ main {
     margin: 0 auto;
 }
 
-main h1, h2, h4 {
-    color:#7b9b4d;
+main h1,
+h2,
+h4 {
+    color: #7b9b4d;
     font-weight: bold;
     font-family: 'Alegreya Sans SC', Helvetica, sans-serif;
 }
