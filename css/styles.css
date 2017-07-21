@@ -1,12 +1,13 @@
 body {
-    background: #86CD65;
+    /*background: #86CD65;*/
+    background: #f9c0da;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 div.container {
     margin: 20px auto;
     background: white;
-    border: 1px solid green;
+    border: 1px solid lightpink;
     border-radius: 2px;
     padding: 0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -65,7 +66,7 @@ main {
 .contacts {
     border-left: 1px solid f4f4f4;
     background: #f4f4f4;
-    width: 28%;
+    width: 29%;
     padding: 10px;
 }
 
@@ -90,13 +91,15 @@ main {
 main h1,
 h2,
 h4 {
-    color: #7b9b4d;
+    /*color: #7b9b4d;*/
+    color: #BE246C;
     font-family: 'Alegreya Sans SC', Helvetica, sans-serif;
 }
 
 h2 {
     font-family: 'Lobster', cursive;
     font-size: 2.4em;
+    color: #BE246C;
 }
 
 p {
