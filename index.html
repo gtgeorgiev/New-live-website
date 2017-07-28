@@ -172,6 +172,7 @@
                             </tr>
                         </table>
                     </div>
+                    <div id="map" style="height:300px;background:yellow; margin-top: 15px;"></div>
                     <div class="embed-responsive embed-responsive-16by9" style="margin-top: 10px; border: 1px solid transparent; height: 270px;">
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XukN1QI00eA"></iframe>
                     </div>
@@ -182,6 +183,28 @@
             Copyright <span class="glyphicon glyphicon-copyright-mark"></span> 2017. Всички права са запазени.
         </footer>
     </div>
+
+
+
+    <script>
+        function myMap() {
+            var mapCanvas = document.getElementById("map");
+            var mapOptions = {
+                center: new google.maps.LatLng(42.6982849, 23.3194685),
+                zoom: 15
+            };
+            var map = new google.maps.Map(mapCanvas, mapOptions);
+        }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key= AIzaSyAESjyvTvWcHCZXFYpXdNshD-kKuvcCkT8&callback=myMap"></script>
+
+
+
+
+
+
+
     <a href="#0" class="cd-top">Top</a>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/main.js"></script>
