@@ -13,22 +13,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles-btn-top.css">
+    <script src="js/modernizr.js"></script>
 </head>
 
 <body>
-    <div id="fb-root"></div>
-    <div id="fb-root"></div>
-    <script>
-        (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = "//connect.facebook.net/bg_BG/sdk.js#xfbml=1&version=v2.10&appId=242112916299210";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
-
     <div class="container page-layout">
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
@@ -38,7 +28,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>                        
                     </button>
-                    <a class="navbar-brand" href="index.html">New Life</a>
+                    <a class="navbar-brand" href="index.html">Best Live</a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
@@ -46,11 +36,18 @@
                         <li><a href="services.html">услуги</a></li>
                         <li><a href="gallery.html">галерия</a></li>
                     </ul>
+                    <div class="social-buttons">
+                        <a href="https://www.facebook.com/newlifesofia/notifications/" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-google"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                    </div>
                 </div>
+
             </div>
         </nav>
-        <main style="padding: 0 0 0 20px;">
-            <div class="row" style="margin: 0; padding: 0; margin-left: -20px;  margin-top: -20px;">
+
+        <main>
+            <div class="row" id="carousel">
                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="4000">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
@@ -72,7 +69,7 @@
                             </div>
                         </div>
                         <div class="item">
-                            <img src="images/img-3_1200x470.png" alt="img_slider_3.png">
+                            <img src="images/img-4_1200x470.png" alt="img_slider_3.png">
                             <div class="carousel-caption">
                             </div>
                         </div>
@@ -87,18 +84,15 @@
                     </a>
                 </div>
             </div>
-            <div class="row">
+
+            <div class="row" id="content">
                 <div class="col-sm-12">
-                    <h2>Оздравителен център НЮ ЛАЙФ</h2>
+                    <h2>Оздравителен център БЕСТ ЛАЙФ</h2>
                     <br>
                 </div>
-            </div>
-            <div class="row">
                 <div class="col-sm-8">
-
-                    <p><img src="images/official_image1.jpg" alt="image_home_page" class="img-thumbnail" width="250" style="float: left; margin: 5px 10px 0 0;">Lorem sunt esse aliquip et in adipisicing esse excepteur enim ad. Ipsum adipisicing tempor aliqua
-                        est eiusmod proident amet qui ea magna. Laboris exercitation anim sit labore laborum duis ipsum nostrud proident culpa commodo. Proident aliquip officia amet proident consequat cupidatat esse cupidatat nostrud occaecat eiusmod
-                        nisi.
+                    <p><img src="images/official_image1.jpg" alt="image_Best_Live" class="img-thumbnail" width="250" id="img-BestLive">Lorem sunt esse aliquip et in adipisicing esse excepteur enim ad. Ipsum adipisicing tempor aliqua est eiusmod proident
+                        amet qui ea magna. Laboris exercitation anim sit labore laborum duis ipsum nostrud proident culpa commodo. Proident aliquip officia amet proident consequat cupidatat esse cupidatat nostrud occaecat eiusmod nisi.
                     </p>
                     <p>Lorem sunt esse aliquip et in adipisicing esse excepteur enim ad. Ipsum adipisicing tempor aliqua est eiusmod proident amet qui ea magna. Laboris exercitation anim sit labore laborum duis ipsum nostrud proident culpa commodo. Proident
                         aliquip officia amet proident consequat cupidatat esse cupidatat nostrud occaecat eiusmod nisi.</p>
@@ -106,65 +100,91 @@
                         aliquip officia amet proident consequat cupidatat esse cupidatat nostrud occaecat eiusmod nisi.</p>
                     <p>Lorem sunt esse aliquip et in adipisicing esse excepteur enim ad. Ipsum adipisicing tempor aliqua est eiusmod proident amet qui ea magna. Laboris exercitation anim sit labore laborum duis ipsum nostrud proident culpa commodo. Proident
                         aliquip officia amet proident consequat cupidatat esse cupidatat nostrud occaecat eiusmod nisi.</p>
-                    <div class="embed-responsive embed-responsive-16by9" style="margin-bottom: 10px;">
+
+                    <h3>Anim proident amet anim</h3>
+                    <p>Culpa voluptate minim excepteur cillum. Magna labore culpa sunt esse id exercitation ut culpa nisi. Sunt et irure ullamco proident mollit officia officia dolor. Nisi et consequat consequat ut nulla reprehenderit officia non cillum
+                        ex fugiat ad cillum sint.</p>
+                    <p>Laboris reprehenderit nostrud nulla ex laborum veniam velit ullamco adipisicing. Proident fugiat do consectetur est. Irure ut nisi nostrud officia deserunt qui duis ad non consequat veniam consequat quis. Culpa irure nulla sit minim
+                        dolore do dolor eiusmod laboris amet nulla proident. Ullamco commodo deserunt reprehenderit aliquip ex aliqua cillum nisi sit anim in.</p>
+                    <h3>Cillum aliquip veniam</h3>
+                    <p>Anim exercitation tempor aute deserunt excepteur in laboris aliqua irure culpa non. Ut nulla irure nulla est aliqua id et eiusmod labore enim ea in. Laboris elit adipisicing Lorem minim amet dolore incididunt elit duis incididunt aliqua
+                        nisi duis mollit.</p>
+                </div>
+                <aside class="col-sm-4">
+                    <div class="contacts">
+                        <table>
+                            <tr>
+                                <td>
+                                    <h4>Свържете се с нас</h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="glyphicon glyphicon-phone" aria-hidden="true"></span> 0877199900, 0876292233
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> test@abv.bg
+                                </td>
+                            </tr>
+                        </table>
+                        <table>
+                            <tr>
+                                <td>
+                                    <h4>Адрес</h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="glyphicon glyphicon-home"></span> София, ул.Мария Луиза 9-11
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+                                    <a href="https://www.google.bg/maps/place/%D0%B1%D1%83%D0%BB.+%E2%80%9E%D0%BA%D0%BD%D1%8F%D0%B3%D0%B8%D0%BD%D1%8F+%D0%9C%D0%B0%D1%80%D0%B8%D1%8F+%D0%9B%D1%83%D0%B8%D0%B7%D0%B0%E2%80%9C+9-11,+1000+%D0%A6%D0%B5%D0%BD%D1%82%D1%8A%D1%80,+%D0%A1%D0%BE%D1%84%D0%B8%D1%8F/@42.6982849,23.3194685,17z/data=!3m1!4b1!4m5!3m4!1s0x40aa8568aeedebbb:0xdb38d9adbcb9591a!8m2!3d42.6982849!4d23.3216572"
+                                        target="_blank">Открийте ни в Google maps</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h4>Работно време</h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Понеделник-Събота:</b> 9:00-18:00 </td>
+                            </tr>
+                            <tr>
+                                <td><b>Неделя:</b> Почивен ден</td>
+                            </tr>
+                            <tr class="social-buttons-mobile">
+                                <td>
+                                    <h4>Открийте ни в:</h4>
+                                </td>
+                            </tr>
+                            <tr class="social-buttons-mobile">
+                                <td>
+                                    <a href="https://www.facebook.com/newlifesofia/notifications/" class="fa fa-facebook"></a>
+                                    <a href="#" class="fa fa-google"></a>
+                                    <a href="#" class="fa fa-youtube"></a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="embed-responsive embed-responsive-16by9" style="margin-top: 10px; border: 1px solid transparent; height: 270px;">
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XukN1QI00eA"></iframe>
                     </div>
-                </div>
-                <aside class="col-sm-4 contacts">
-                    <table>
-                        <tr>
-                            <td>
-                                <h4 style="margin-top: 0">Свържете се с нас</h4>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <span class="glyphicon glyphicon-phone" aria-hidden="true"></span> 0877199900, 0876292233
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> test@abv.bg
-                            </td>
-                        </tr>
-                    </table>
-                    <table>
-                        <tr>
-                            <td>
-                                <h4>Адрес</h4>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <span class="glyphicon glyphicon-home"></span> София ул.Мария Луиза 9-11
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
-                                <a href="https://www.google.bg/maps/place/%D0%B1%D1%83%D0%BB.+%E2%80%9E%D0%BA%D0%BD%D1%8F%D0%B3%D0%B8%D0%BD%D1%8F+%D0%9C%D0%B0%D1%80%D0%B8%D1%8F+%D0%9B%D1%83%D0%B8%D0%B7%D0%B0%E2%80%9C+9-11,+1000+%D0%A6%D0%B5%D0%BD%D1%82%D1%8A%D1%80,+%D0%A1%D0%BE%D1%84%D0%B8%D1%8F/@42.6982849,23.3194685,17z/data=!3m1!4b1!4m5!3m4!1s0x40aa8568aeedebbb:0xdb38d9adbcb9591a!8m2!3d42.6982849!4d23.3216572"
-                                    target="_blank">Открийте ни в Google maps</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <h4>Работно време</h4>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><b>Понеделник-Събота:</b> 9:00-18:00 </td>
-                        </tr>
-                        <tr>
-                            <td><b>Неделя:</b> Почивен ден</td>
-                        </tr>
-                    </table>
                 </aside>
             </div>
         </main>
         <footer class="footer">
-            <span class="glyphicon glyphicon-copyright-mark"></span> 2017. Всички права са запазени.
+            Copyright <span class="glyphicon glyphicon-copyright-mark"></span> 2017. Всички права са запазени.
         </footer>
     </div>
+    <a href="#0" class="cd-top">Top</a>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
